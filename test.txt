@@ -1,1 +1,6 @@
+<<<<<<< HEAD
 lorum ipsum
+=======
+lorum ipsum E pluribus Unum...
+E pluribus Unum...
+>>>>>>> e14037c2b61826e53fd357312482b61bf929e34b

@@ -10,7 +10,11 @@ fs.readFile(dataFeed, function(err, data) {
         console.log("Unable to read file.");
     } else {
         console.log("writing to file");
+<<<<<<< HEAD
         fs.appendFile(fileName, " " + data.toString(), writeFileCallback);
+=======
+        fs.appendFile(fileName, "\r\n" + data.toString(), writeFileCallback);
+>>>>>>> e14037c2b61826e53fd357312482b61bf929e34b
     }
 });
 
@@ -22,4 +26,8 @@ function writeFileCallback(err) {
   } else {
     console.log("we wrote our file!")
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> e14037c2b61826e53fd357312482b61bf929e34b
