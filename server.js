@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 var http =  require('http');
 var fs = require('fs');
 
@@ -17,9 +16,9 @@ var server = http.createServer(function (req, res) {
 });
 
 server.listen(3000, '127.0.0.1');
-=======
 
-// build a server that can server files from the public directory
+
+// build a server that can serve files from the public directory
 
 var http = require("http"),
     url = require("url"),
@@ -58,4 +57,4 @@ http.createServer(function(request, response) {
 }).listen(parseInt(port, 10));
 
 console.log("Static file server running at\n  => http://localhost:" + port + "/\nCTRL + C to shutdown");
->>>>>>> e14037c2b61826e53fd357312482b61bf929e34b
+
